@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-calculator',
-  templateUrl: './calculator.component.html',
-  styleUrls: ['./calculator.component.css']
+  selector: 'app-calculadora',
+  templateUrl: './calculadora.component.html',
+  styleUrls: ['./calculadora.component.css']
 })
-export class CalculatorComponent {
-
+export class CalculadoraComponent {
   private numeroActual: number = 0;
   private numeroAnterior: number = 0;
   private operador: string = '';
@@ -61,5 +60,4 @@ export class CalculatorComponent {
   limpiar(): void {
     this.salida = '';
   }
-
 }
